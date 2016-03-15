@@ -1,5 +1,5 @@
 {
-  "name": "mPaaS-SDK",
+  "name": "mpaas-sdk",
   "version": "1.0.0",
   "description": "SDK for Node JS to store data into mPaaS system",
   "main": "mpaas-sdk.js",
