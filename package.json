@@ -1,0 +1,22 @@
+{
+  "name": "mPaaS-SDK",
+  "version": "1.0.0",
+  "description": "SDK for Node JS to store data into mPaaS system",
+  "main": "mpaas-sdk.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnguyen73/mpaas-sdk.git"
+  },
+  "keywords": [
+    "mPaaS"
+  ],
+  "author": "Duy T Nguyen <duynt2010@gmail.com> (TBD)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnguyen73/mpaas-sdk/issues"
+  },
+  "homepage": "https://github.com/dnguyen73/mpaas-sdk"
+}
