@@ -2,9 +2,9 @@
   "name": "mpaas-sdk",
   "version": "1.0.0",
   "description": "SDK for Node JS to store data into mPaaS system",
-  "main": "mpaas-sdk.js",
+  "main": "./src/mpaas.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "grunt jasmine"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,17 @@
   "bugs": {
     "url": "https://github.com/dnguyen73/mpaas-sdk/issues"
   },
-  "homepage": "https://github.com/dnguyen73/mpaas-sdk"
+  "homepage": "https://github.com/dnguyen73/mpaas-sdk",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jasmine": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "matchdep": "^1.0.1"
+  }
 }
