@@ -102,4 +102,9 @@ module.exports = function(grunt){
     	'uglify',
     	'jasmine'
   	]);
+
+  	grunt.registerTask('travis', [
+    	'jshint',
+    	'jasmine'
+  	]);
 };
